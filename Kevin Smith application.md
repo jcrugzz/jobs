@@ -61,8 +61,9 @@ Open Source Contributions
  * [submergence](https://github.com/shenanigans/node-submergence) WebRTC signalling server and Socket.io session terminator.
  * [substation](https://github.com/shenanigans/node-substation) Realtime application framework and WebRTC client library.
  * [likeness](https://github.com/shenanigans/node-likeness) JSON Schema validator, extensions, transform engine.
- * [fauxmongo](https://github.com/shenanigans/node-fauxmongo) MongoDB reference implementation for previewing update results locally.
  * [surveil](https://github.com/shenanigans/node-surveil) performant directory and file watcher.
+ * [PornViewer](https://github.com/shenanigans/PornViewer) image and video viewer/thumbnailer in [nw.js](http://nwjs.io/)
+ * [fauxmongo](https://github.com/shenanigans/node-fauxmongo) MongoDB reference implementation for previewing update results locally.
 
 The Future
 ==========
