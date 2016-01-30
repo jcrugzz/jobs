@@ -25,13 +25,12 @@ preparing to take inventory of thousands of pages of final results being sent in
 labs. As part of our grant we were required to produce a method for curating these results, and the
 PI took the problem pretty seriously. Unfortunately, the graduate students doing most of the daily
 work lose their taste for rigour by the hundredth time they have to fill out the same endless
-questionaire.
+questionaire. I therefor needed a system which would organize data entry for groups of related items. 
 
-I therefor needed a system which would organize data entry for groups of related items. This system
-had to produce arbitrarily-searchable data on a curated/redactable final set. I was supposed to
-support "up to a thousand people" and index millions of records, but without needing appreciable
-money to operate or more than 6U on the overstrained racks. As for overall configurability, I was
-told that "we have no idea how we will be doing any of this in ten years."
+This system had to produce arbitrarily-searchable data on a curated/redactable final set. I was 
+supposed to support "up to a thousand people" and index millions of records, but without needing 
+appreciable money to operate or more than 6U on the overstrained racks. As for overall 
+configurability, I was told that "we have no idea how we will be doing any of this in ten years."
 
 At the end of six months I produced a prototype called SALAAM - Spectrum Analysis Laboratory Access
 And Management. This system was a node-webkit application and less-featureful webapp which managed a
@@ -41,9 +40,11 @@ result documents. For data enforcement and curation purposes, these nodes could 
 which could fill and/or restrict keys in leafward children.
 
 An additional tool allowed the configuration of simplified input interfaces for accepting uploads
-from collaborating labs. Uploaded and lightly configured files were assigned to be children of a
-configured node, automatically inheriting more information. If all relevant schema were met and, a
-record's inherited data was fully compiled and projected into the final result set.
+from collaborating labs. Configuring and activating the node in SALAAM published a simple static 
+html form on the lab's public addres where collaborators could upload a file and answer a short 
+list of questions about it. The uploaded files were automatically associated with a parent node 
+and inherited information from it. If all relevant schema were met, the record's compiled data was
+projected into the final result set.
 
 The prototype was rushed and architecturally indefensible, but I'm proud to say I met the entire
 feature list. I even made [these cute icons](http://i.imgur.com/A7xqsWT.png) for the tree nodes,
@@ -52,7 +53,7 @@ cover my position.
 
 Since losing that job I have sought to assemble a better portfolio while applying lessons learned in
 developing SALAAM. It is my continuing goal to engineer the next generation of high-performance
-webapps in Node.js and MongoDB.
+webapps.
 
 Open Source Contributions
 =========================
