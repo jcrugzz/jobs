@@ -56,18 +56,12 @@ webapps in Node.js and MongoDB.
 
 Open Source Contributions
 =========================
- * SALAAM/NAMES-DB was to be released under gplv3
- * [Contributed to forever-monitor](https://github.com/foreverjs/forever-monitor/pull/70) in my first ever github pull request.
- * [mingydb](https://github.com/shenanigans/node-mingydb) fully-automatic minification layer for MongoDB.
- * [fauxmongo](https://github.com/shenanigans/node-fauxmongo) reference implementation for MongoDB. Applies database operations to local documents.
  * [doczar](https://github.com/shenanigans/node-doczar) documentation generator for Node.js and beyond.
- * [cachew](https://github.com/shenanigans/node-cachew) simple caching primitives.
-
-Upcoming Releases
-=================
- * [likeness](https://github.com/shenanigans/node-likeness) JSON validation and transform library.
- * `waxwork` backwards-and-forwards ODM. A Mongoose alternative. This lib was the reason for creating `fauxmongo` and `likeness`.
- * `substation` webapp framework. Obfuscates REST and Socket.io onto a unified set of handler scripts.
+ * [submergence](https://github.com/shenanigans/node-submergence) WebRTC signalling server and Socket.io session terminator.
+ * [substation](https://github.com/shenanigans/node-substation) Realtime application framework and WebRTC client library.
+ * [likeness](https://github.com/shenanigans/node-likeness) JSON Schema validator, extensions, transform engine.
+ * [fauxmongo](https://github.com/shenanigans/node-fauxmongo) MongoDB reference implementation for previewing update results locally.
+ * [surveil](https://github.com/shenanigans/node-surveil) performant directory and file watcher.
 
 The Future
 ==========
@@ -75,8 +69,3 @@ Although I'm comfortable building up a project independently, I'm getting pretty
 alone *all the time.* It would be **extremely** exciting to collaborate with other passionate
 engineers. I especially look forward to working with a team that has deep knowledge and experience I
 can ~~steal~~ benefit from as a developer.
-
-Much as I believe in my work, I don't want to create a private Schmidtyverse. Node is an open tool
-and its greatest strength is its community. The best way for me to respect the work on which mine
-relies is to engage that community, cooperate, and hopefully build something "bigger than all of
-us."
